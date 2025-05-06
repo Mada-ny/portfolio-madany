@@ -149,7 +149,7 @@ export default function Skills() {
   return (
     <>
       <Head>
-        <title>Mes Compétences | Portfolio Développeur</title>
+        <title>Mes Compétences | Portfolio Madany DOUMBIA</title>
         <meta name="description" content="Découvrez mes compétences techniques en développement web" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

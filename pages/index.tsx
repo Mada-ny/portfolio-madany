@@ -89,7 +89,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Portfolio | Madany Doumbia</title>
+        <title>Accueil | Portfolio Madany DOUMBIA</title>
         <meta name="description" content="Portfolio de Madany Doumbia avec thème principalement Matrix" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

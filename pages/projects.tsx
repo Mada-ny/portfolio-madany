@@ -117,7 +117,7 @@ export default function Projects() {
   return (
     <>
       <Head>
-        <title>Mes Projets | Portfolio Développeur</title>
+        <title>Mes Projets | Portfolio Madany DOUMBIA</title>
         <meta name="description" content="Découvrez mes projets de développement web et applications" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
