@@ -144,7 +144,7 @@ export default function Home() {
               
               {/* CTA Principal */}
               <div className="flex flex-col sm:flex-row gap-4">
-                <a 
+                <Link 
                   href="/contact" 
                   className="bg-green-600 hover:bg-green-700 text-black px-8 py-3 rounded-md font-bold transition-all hover:scale-105 hover:glitch relative overflow-hidden"
                 >
@@ -154,7 +154,7 @@ export default function Home() {
                     animation: "glitch 2s infinite",
                     transform: "translateX(-5px)"
                   }}></span>
-                </a>
+                </Link>
                 
                 <a 
                   href="/cv_madany-doumbia.pdf" 
@@ -327,9 +327,9 @@ export default function Home() {
           <div className="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center">
             <p>© {new Date().getFullYear()} Madany DOUMBIA - Tous droits réservés</p>
             <div className="flex gap-4 mt-4 md:mt-0">
-              <a href="https://github.com/mada-ny" className="hover:text-white" target="_blank" rel="noopener noreferrer">GitHub</a>
-              <a href="https://linkedin.com/in/votre-username" className="hover:text-white" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-              <a href="https://twitter.com/votre-username" className="hover:text-white" target="_blank" rel="noopener noreferrer">Twitter</a>
+              <Link href="https://github.com/mada-ny" className="hover:text-white" target="_blank" rel="noopener noreferrer">GitHub</Link>
+              <Link href="https://linkedin.com/in/votre-username" className="hover:text-white" target="_blank" rel="noopener noreferrer">LinkedIn</Link>
+              <Link href="https://twitter.com/votre-username" className="hover:text-white" target="_blank" rel="noopener noreferrer">Twitter</Link>
             </div>
           </div>
         </footer>
