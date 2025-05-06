@@ -138,7 +138,7 @@ export default function Home() {
                 <span className="text-white">Développeur Full Stack</span>
               </h1>
               <p className="text-xl mb-10 max-w-2xl">
-                Spécialisé dans le développement d'applications web modernes 
+                Spécialisé dans le développement d&apos;applications web modernes 
                 et performantes avec une expertise en <span className="text-white">technologies front-end et back-end</span>.
               </p>
               

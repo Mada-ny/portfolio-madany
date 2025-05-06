@@ -212,7 +212,7 @@ export default function Skills() {
               )}
             </h1>
             <p className="text-xl max-w-2xl mx-auto">
-              Une vue d'ensemble de mes compétences techniques, outils et technologies que j'utilise 
+              Une vue d&apos;ensemble de mes compétences techniques, outils et technologies que j&apos;utilise 
               pour construire des applications web modernes et performantes.
             </p>
           </div>
@@ -237,7 +237,7 @@ export default function Skills() {
 
           {/* Skills Display */}
           <div className="grid gap-6">
-            {skillsData[activeCategory as keyof typeof skillsData].map((skill, index) => (
+            {skillsData[activeCategory as keyof typeof skillsData].map((skill) => (
               <div key={skill.name} className="relative">
                 <div className="flex justify-between mb-1">
                   <span className="font-semibold">{skill.name}</span>
