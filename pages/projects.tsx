@@ -117,7 +117,7 @@ export default function Projects() {
   return (
     <>
       <Head>
-        <title>Mes Projets | Portfolio Madany DOUMBIA</title>
+        <title>Projets | Portfolio Madany DOUMBIA</title>
         <meta name="description" content="Découvrez mes projets de développement web et applications" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -323,7 +323,7 @@ export default function Projects() {
             <p>© {new Date().getFullYear()} Madany DOUMBIA - Tous droits réservés</p>
             <div className="flex gap-4 mt-4 md:mt-0">
               <a href="https://github.com/mada-ny" className="hover:text-white" target="_blank" rel="noopener noreferrer">GitHub</a>
-              <a href="https://linkedin.com/in/votre-username" className="hover:text-white" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+              <a href="https://www.linkedin.com/in/madany-doumbia-90584a350/" className="hover:text-white" target="_blank" rel="noopener noreferrer">LinkedIn</a>
               <a href="https://twitter.com/votre-username" className="hover:text-white" target="_blank" rel="noopener noreferrer">Twitter</a>
             </div>
           </div>

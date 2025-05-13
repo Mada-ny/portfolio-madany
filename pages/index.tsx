@@ -53,7 +53,7 @@ export default function Home() {
     return () => clearInterval(glitchInterval);
   }, []);
 
-  // Photo matrix effect - Client-side only to avoid hydration mismatch
+  // Photo matrix effect
   useEffect(() => {
     if (typeof window !== 'undefined') {
       const matrixOverlay = document.getElementById('matrix-overlay');
@@ -133,17 +133,17 @@ export default function Home() {
         <main className="relative z-10">
           <div className="container mx-auto px-6 py-20 flex flex-col items-center justify-center text-center">
             {/* Text Content */}
-            <div className="md:w-1/2 text-center md:text-left mb-10 md:mb-0">
-              <h1 className="text-4xl md:text-6xl font-bold mb-6 typewriter">
+            <div className="text-center mb-10 md:mb-0">
+              <h1 className="text-4xl md:text-6xl font-bold typewriter">
                 <span className="text-white">Développeur Full Stack</span>
               </h1>
-              <p className="text-xl mb-10 max-w-2xl">
+              <p className="text-xl md:mx-auto mb-10 max-w-2xl">
                 Spécialisé dans le développement d&apos;applications web modernes 
                 et performantes avec une expertise en <span className="text-white">technologies front-end et back-end</span>.
               </p>
               
               {/* CTA Principal */}
-              <div className="flex flex-col sm:flex-row gap-4">
+              <div className="flex flex-col sm:flex-row gap-4 sm:justify-center">
                 <Link 
                   href="/contact" 
                   className="bg-green-600 hover:bg-green-700 text-black px-8 py-3 rounded-md font-bold transition-all hover:scale-105 hover:glitch relative overflow-hidden"
@@ -168,9 +168,8 @@ export default function Home() {
             </div>
             
             {/* Profile Photo with Matrix Effect */}
-            <div className="md:w-2/5 relative mt-4">
+            <div className="md:w-2/5 relative mt-4 md:mt-10">
               <div className="relative w-64 h-64 mx-auto overflow-hidden rounded-full border-4 border-green-500 group">
-                {/* Placeholder for your profile photo */}
                 <div className="absolute inset-0 bg-black flex items-center justify-center">
                   <Image 
                     src="/profile-photo.jpg" 
@@ -328,7 +327,7 @@ export default function Home() {
             <p>© {new Date().getFullYear()} Madany DOUMBIA - Tous droits réservés</p>
             <div className="flex gap-4 mt-4 md:mt-0">
               <Link href="https://github.com/mada-ny" className="hover:text-white" target="_blank" rel="noopener noreferrer">GitHub</Link>
-              <Link href="https://linkedin.com/in/votre-username" className="hover:text-white" target="_blank" rel="noopener noreferrer">LinkedIn</Link>
+              <Link href="https://www.linkedin.com/in/madany-doumbia-90584a350/" className="hover:text-white" target="_blank" rel="noopener noreferrer">LinkedIn</Link>
               <Link href="https://twitter.com/votre-username" className="hover:text-white" target="_blank" rel="noopener noreferrer">Twitter</Link>
             </div>
           </div>
@@ -377,7 +376,7 @@ export default function Home() {
           overflow: hidden;
           border-right: 2px solid #22c55e;
           white-space: nowrap;
-          margin: 0 auto;
+          margin: 0 auto 28px auto;
           animation: 
             typewriter 3s steps(40) 1s forwards,
             blink-caret 0.75s step-end infinite;
